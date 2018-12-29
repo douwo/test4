@@ -1,0 +1,160 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+a {
+	text-decoration: none !important;
+}
+
+p {
+	text-indent: 28px;
+}
+
+.banner {
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	height: 122px;
+	justify-content: flex-end;
+	background-color: #2cb04a;
+}
+
+nav>a {
+	text-align: center;
+	padding: 10px;
+	margin: 0 4px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 600;
+}
+
+nav>a:nth-last-child(1) {
+	margin-right: 20px;
+}
+
+nav>a:hover {
+	background-color: #ffde00;
+	color: #333;
+}
+
+nav>a>span:nth-child(3) {
+	font-size: 12px;
+}
+
+.title1 {
+	margin-top: 130px;
+}
+
+.title2 {
+	margin-top: 90px;
+}
+
+.title1>p,
+.title2>p {
+	letter-spacing: 4px;
+	font-weight: 600;
+	text-indent: 0;
+}
+
+.media-left {
+	float: left;
+}
+
+.media-body {
+	padding-left: 10px;
+}
+
+.four>div {
+	margin: 20px 0;
+}
+
+.four>div h4 {
+	font-weight: bold;
+}
+
+.caption {
+	text-align: center;
+	background-color: #2cb04a;
+	color: #fff !important;
+}
+
+.caption p {
+	text-indent: 0;
+}
+
+.yuan {
+	border-radius: 100%;
+	width: 36px;
+	height: 36px;
+}
+
+.thumbnail {
+	border: none;
+}
+
+.hengfu {
+	height: auto;
+	width: 100%;
+}
+footer {
+	height: 200px;
+	width: 100%;
+	background-color: #272727;
+	display: flex;
+	align-items: center;
+}
+
+footer>.contact {
+	min-width: 450px;
+	height: 160px;
+}
+
+footer>.contact>p {
+	color: #aaa;
+	font-size: 16px;
+	text-indent: 0;
+	letter-spacing: 3px;
+}
+
+footer>.contact>h2 {
+	color: #ffe500;
+	margin: 4px 0;
+	letter-spacing: 3px;
+}
+.bq{
+	height: 34px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #202020;
+	color: #ccc;
+}
+.goTop{
+	position: fixed;
+	right: 5vw;
+	bottom: 5vh;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	background-color: rgba(175,175,175,0.5);
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	cursor: pointer;
+}
+.nav2{
+	width: 70vw;
+	height: 100%;
+}
+.wave-list-box>ul{
+	padding: 0;
+}
